@@ -11,7 +11,7 @@ public class HelloController {
 	@ResponseBody
 	public String sayHello()
 	{
-		System.out.println("check jenkins");
+		System.out.println("check jenkins1");
 		return "hey";
 	}
 
