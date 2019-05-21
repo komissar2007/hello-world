@@ -11,7 +11,7 @@ public class HelloController {
 	@ResponseBody
 	public String sayHello()
 	{
-		System.out.println("hey first commit");
+		System.out.println("check jenkins");
 		return "hey";
 	}
 
