@@ -10,5 +10,5 @@ EXPOSE 8080
 # Add the application's jar to the container
 ADD ${JAR_FILE} hello-world.jar
 
-# Run the jar file
+# Run the jar file a
 ENTRYPOINT ["java","-jar","/hello-world.jar"]
